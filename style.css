@@ -1,0 +1,85 @@
+body {
+  width: auto;
+  height: auto;
+}
+
+main {
+  background-image: linear-gradient(to right top, #6fa1ff, #84aefe, #98bafe, #acc7fc, #bfd3fb, #c1d8fc, #c4ddfd, #c7e2fe, #b6e1ff, #a3e0ff, #8ddfff, #74dffd);
+
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #333300;
+  font-size: 25px;
+  margin-bottom: -30px;
+}
+
+header ul li {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  padding: 8px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+header ul li a:hover {
+  background-color: #e0e0d1;
+}
+
+.slider {
+  padding: 0px;
+  margin: 5px;
+}
+
+.slider-img {
+  max-width: auto;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  float:left;
+  padding: 5px 5px;
+  margin:0px;
+}
+
+.p-text {
+  column-count: 4;
+  text-align: justify;
+  column-rule: 2px solid black;
+  padding: 5px 5px;
+  margin:5px 5px;
+}
+
+.card {
+  max-width: 100%;
+  height:100%;
+  padding: 15px;
+  margin-top: 0px;
+
+}
+
+.footer {
+  background-color: #333300;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  margin-top:10px;
+}
